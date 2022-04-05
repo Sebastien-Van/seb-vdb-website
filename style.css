@@ -34,15 +34,16 @@
    padding-bottom: 20px; 
    padding-left: 10px;
 }
-
 /* end of navbar styles */
 
+/* body parameters */
 body{
     background-color:#fdebf9;
     color: #24242c;
     font-family: "Rockwell", "Courier Bold", Courier, Georgia, Times, "Times New Roman";
     font-size: 20px;
 }
+/* image classes */
 .img_right{
     float: right;
     margin: 75 px;
@@ -60,10 +61,12 @@ body{
     border: 5px solid;
     padding: 25px;
 }
+/* flex boxe classes */
 .contain{
     display: flex;
-
 }
+
+/* text box classes */
 .paraR{
     width:40%;
     height: 300 px;
@@ -84,6 +87,7 @@ body{
     background-image: url(img/b1.png); 
     background-repeat: no-repeat;
 }
+/* id's to better posisiton boxes */
 #animate{
     position: absolute;
 }
