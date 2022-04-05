@@ -17,9 +17,9 @@ function setup() {
 }
 
 function draw(){
-   background(240, 222, 234);
+   background(253, 235, 249);
   // Animate by increasing value of x
-    x = x + 2;
+    x = x + 3;
     if (x == width){
       x= -dim;
     }
